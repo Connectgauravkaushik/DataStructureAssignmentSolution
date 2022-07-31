@@ -10,7 +10,7 @@ public class ConstructFloor {
 		   
 		   int arr[]=new int[floorsize+1];
 		   for(int i=1; i<floorsize+1; i++) {
-			   System.out.println("Enter the floor size given on day" +i);
+			   System.out.println("Enter the floor size given on Day : " +i);
 			   int m = sc.nextInt();
 			   arr[m]=i;
 		  } 
